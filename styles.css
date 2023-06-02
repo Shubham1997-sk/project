@@ -1,0 +1,72 @@
+img{
+    align-items: center;
+    width:200px;
+    height:auto;
+    border-radius:50%;
+    border-style: solid;
+    border-color: black;
+    position:absolute;
+    left:500px;
+    top:10px;
+    animation-name:shubham;
+    animation-duration:10s;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    box-shadow: -2px 2px 2px rgb(102, 102, 190);
+}
+img:hover{
+    border-color:red;
+}
+@keyframes shubham{
+    0%{
+        width:100px;
+        left:200px;
+    }
+       100%{
+          
+        width:200px;
+    }
+}
+h1{
+    text-align:center;
+    font-family:sans-serif;
+    color:black;
+    padding 10px;
+    background-color:white;
+    text-shadow:2px 2px 4px red;
+    
+}
+
+body{
+    position:absolute;
+    background-image:url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?size=626&ext=jpg");
+}
+div{
+    background-color:lightblue;
+    width:800px;
+    height:400px;
+    position:relative;
+    align-items: center;
+    top:200px;
+    left:250px;
+    border-radius:20px;
+    margin:10px;
+}
+p{
+    padding:10px;
+    font-size:25px;
+    color:white;
+}
+div:hover{
+    background-color:rgb(1, 1, 15);
+    
+}
+
+iframe{
+    border-radius:20px;
+    position:relative;
+    top:-10px;
+    left:500px;
+}
